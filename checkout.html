@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Site made with Mobirise Website Builder v5.6.5, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.6.5, mobirise.com">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image:src" content="">
+  <meta property="og:image" content="">
+  <meta name="twitter:title" content="Order">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/untitled-design-2-273x273.png" type="image/x-icon">
+  <meta name="description" content="">
+
+
+  <title>Order</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/parallax/jarallax.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"
+    as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap">
+  </noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+
+
+
+
+</head>
+
+<body>
+
+  <style>
+    .row {
+      display: -ms-flexbox;
+      /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap;
+      /* IE10 */
+      flex-wrap: wrap;
+      margin: 0 -16px;
+    }
+
+    .col-25 {
+      -ms-flex: 25%;
+      /* IE10 */
+      flex: 25%;
+    }
+
+    .col-50 {
+      -ms-flex: 50%;
+      /* IE10 */
+      flex: 50%;
+    }
+
+    .col-75 {
+      -ms-flex: 75%;
+      /* IE10 */
+      flex: 75%;
+    }
+
+    .col-25,
+    .col-50,
+    .col-75 {
+      padding: 0 16px;
+    }
+
+    .container #checkout {
+      background-color: #f2f2f2;
+      padding: 5px 20px 15px 20px;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+    }
+
+    input[type=text] {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    label {
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .icon-container {
+      margin-bottom: 20px;
+      padding: 7px 0;
+      font-size: 24px;
+    }
+
+    .btn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      width: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 17px;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    span.price {
+      float: right;
+      color: grey;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+    @media (max-width: 800px) {
+      .row {
+        flex-direction: column-reverse;
+      }
+
+      .col-25 {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+
+  <section data-bs-version="5.1" class="menu menu2 cid-tbFTe1OQhV" once="menu" id="menu2-0"
+    style="background-color: red;">
+
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg ">
+      <div class="container-fluid">
+        <div class="navbar-brand">
+          <span class="navbar-logo">
+            <a href="index.html">
+              <img src="assets/images/untitled-design-2-273x273.png" alt=" " style="height: 4.2rem;">
+            </a>
+          </span>
+
+        </div>
+
+
+
+      </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <section data-bs-version="5.1" class="form7 cid-tbFZUkhqVd" id="form7-d">
+
+    <div class="row" style="background-color: #ffccb3; padding :50px; ">
+      <div class="col-75">
+        <div class="container" id="checkout">
+          <form name="submit-to-google-sheet">
+
+            <div id="Text" data-form-alert="" class="alert alert-success col-12">Order placed Successfully! We will
+              contact you soon
+            </div>
+            <div id="EText" data-form-alert-danger="" class="alert alert-danger col-12">
+              Oops...! some problem!
+            </div>
+            <div class="row">
+              <div class="col-50">&nbsp;
+                <h3>Billing Details</h3>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" name="name_order" data-form-field="name" class="form-control" value=""
+                  id="name-form7-d" required>
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="email" name="email_order" data-form-field="email" class="form-control" value=""
+                  id="email-form7-d" required>&nbsp;
+                <label for="number"><i class="fa fa-envelope"></i> Phone Number</label>
+                <input type="tsxt" name="phone_no" data-form-field="Number" class="form-control" value=""
+                  id="name-form7-d" required>&nbsp;
+                <label for="coupon"><i class="fa fa-envelope"></i> Coupon code</label>
+                <input type="Coupon" name="coupon" data-form-field="Coupon" class="form-control" value=""
+                  id="phone-form7-d"required>&nbsp;
+
+
+              </div>
+
+              <div class="col-50">&nbsp;
+                <h4>Adress Details</h4>
+                <label for="adress"><i class="fa fa-address-card-o"></i> Address</label>
+                <input type="textarea" name="adress" data-form-field="adress" class="form-control" value=""
+                  id="phone-form7-d" required>&nbsp;&nbsp;
+                <label for="Landmark"><i class="fa fa-address-card-o"></i> Land Mark</label>
+                <input type="text" name="Landmark" data-form-field="Landmark" value="" class="form-control" value=""
+                  id="phone-form7-d" required>
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input type="text" id="city" name="city" required>
+
+                <div class="row">
+                  <div class="col-50">
+                    <label for="state">State</label>
+                    <select name="state" id="state" class="form-control" required >
+                      <option value=""></option>
+                      <option value="Andhra Pradesh">Andhra Pradesh</option>
+                      <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                      <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                      <option value="Assam">Assam</option>
+                      <option value="Bihar">Bihar</option>
+                      <option value="Chandigarh">Chandigarh</option>
+                      <option value="Chhattisgarh">Chhattisgarh</option>
+                      <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                      <option value="Daman and Diu">Daman and Diu</option>
+                      <option value="Delhi">Delhi</option>
+                      <option value="Lakshadweep">Lakshadweep</option>
+                      <option value="Puducherry">Puducherry</option>
+                      <option value="Goa">Goa</option>
+                      <option value="Gujarat">Gujarat</option>
+                      <option value="Haryana">Haryana</option>
+                      <option value="Himachal Pradesh">Himachal Pradesh</option>
+                      <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                      <option value="Jharkhand">Jharkhand</option>
+                      <option value="Karnataka">Karnataka</option>
+                      <option value="Kerala">Kerala</option>
+                      <option value="Madhya Pradesh">Madhya Pradesh</option>
+                      <option value="Maharashtra">Maharashtra</option>
+                      <option value="Manipur">Manipur</option>
+                      <option value="Meghalaya">Meghalaya</option>
+                      <option value="Mizoram">Mizoram</option>
+                      <option value="Nagaland">Nagaland</option>
+                      <option value="Odisha">Odisha</option>
+                      <option value="Punjab">Punjab</option>
+                      <option value="Rajasthan">Rajasthan</option>
+                      <option value="Sikkim">Sikkim</option>
+                      <option value="Tamil Nadu">Tamil Nadu</option>
+                      <option value="Telangana">Telangana</option>
+                      <option value="Tripura">Tripura</option>
+                      <option value="Uttar Pradesh">Uttar Pradesh</option>
+                      <option value="Uttarakhand">Uttarakhand</option>
+                      <option value="West Bengal">West Bengal</option>
+                    </select>
+                  </div>
+                  <div class="col-50">
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" name="zip" required>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <input type="hidden" id="product" name="product"  required/>
+            <input type="hidden" id="prize" name="prize"  required />
+
+            <div class="col-auto mbr-section-btn align-center">
+              <button type="submit" class="btn btn-primary display-4">Submit</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <div class="col-25">
+        <div class="container">
+          <diV class="display-5" style="padding-bottom: 20px;">Cart
+
+          </DIV>
+
+          <table class="show-cart-final ">
+
+          </table>
+
+          <div class="display-5 ">Total price: ₹<span class="total-cart" id="total_prize"></span></div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <section data-bs-version="5.1" class="content8 cid-tbFZVrgWOH" id="content8-e">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="counter-container col-md-12 col-lg-10">
+          <div class="mbr-text mbr-fonts-style display-7">
+            <ul>
+              <li><strong>Pre-Book&nbsp;</strong>Pre-Booking is must. Without prior intimation we don't make sweets. Its
+                tough to handle milk and milk product.&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</li>
+              <li><strong>Payments&nbsp;&nbsp;</strong>Payments should be done before delivery for the products to make
+                transactions smooth and easy.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+              <li><strong>Feedbacks </strong>We are happy to hear feedback from you. Please help us improve our
+                products.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-bs-version="5.1" class="footer3 cid-tc4foqOH6b" once="footers" id="footer3-h">
+
+    <div class="container">
+      <div class="media-container-row align-center mbr-white">
+        <div class="row row-links">
+          <ul class="foot-menu">
+
+            <li class="foot-menu-item mbr-fonts-style display-7">
+              <a class="text-white text-primary" href="index.html#contacts3-5" target="_blank">Contact us</a>
+            </li>
+            <li class="foot-menu-item mbr-fonts-style display-7"><a href="page1.html" class="text-white">Occasions</a>
+            </li>
+            <li class="foot-menu-item mbr-fonts-style display-7"><a href="page5.html" class="text-white">Gift</a></li>
+          </ul>
+        </div>
+        <div class="row social-row">
+          <div class="social-list align-right pb-2">
+
+            <div class="soc-item">
+              <a href="#" target="_blank">
+                <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+              </a>
+            </div>
+            <div class="soc-item">
+              <a href="#" target="_blank">
+                <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+              </a>
+            </div>
+            <div class="soc-item">
+              <a href="#" target="_blank">
+                <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+              </a>
+            </div>
+            <div class="soc-item">
+              <a href="#" target="_blank">
+                <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+              </a>
+            </div>
+            <div class="soc-item">
+              <a href="#" target="_blank">
+                <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
+              </a>
+            </div>
+            <div class="soc-item">
+              <a href="#" target="_blank">
+                <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+              </a>
+            </div>
+          </div>
+        </div><img src="./assets/images/fsai.png" style="height: 76px; width: 150px;">
+        <div class="row row-copirayt">
+          <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+            © Copyright Gokul. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="display-7"
+    style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 0rem;">
+    <a href="https://mobiri.se/2113008" style="flex: 1 1;height: 0rem;position: absolute;width: 100%;z-index: 1;"><img
+        alt="" style="height: 0rem;"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><a
+      href="https://mobirise.com/web-page-maker.html"></a>
+  </section>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/parallax/jarallax.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/ytplayer/index.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+
+
+
+  <section class="display-7"
+    style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 0rem;">
+    <a href="https://mobiri.se/2113008" style="flex: 1 1;height: 0rem;position: absolute;width: 100%;z-index: 1;"><img
+        alt="" style="height: 0rem;"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a>
+    <p style="margin: 0;text-align: center;" class="display-7"></p><a style="z-index:1"
+      href="https://mobirise.com/html-builder.html"></a>
+  </section>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/parallax/jarallax.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/ytplayer/index.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/countdown/countdown.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script>
+    var cartitems = "";
+     document.getElementById('product').setAttribute('value', displayCartFinal() ); 
+     document.getElementById('prize').setAttribute('value', '₹' + displayCart() );
+  </script>
+
+<script>
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby-miuVHwJJCmSWiWfK2ZGivx5XOB2PNYpLJBMcPrQobbGEwTtmEFU_XjxIarYC6_4kvA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  document.getElementById('Text').style.display = "none";
+  document.getElementById('EText').style.display = "none";
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => document.getElementById('Text').style.display = "block" )
+      .catch(error => document.getElementById('EText').style.display = "block")
+  })
+
+</script>
+  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i
+        class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+  <input name="animation" type="hidden">
+
+</body>
+
+</html>
